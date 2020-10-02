@@ -1,0 +1,476 @@
+///HTML FILE///
+<html>
+<head>
+<tittle></tittle>  
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+    <body>
+     <div class="hero">
+         <div class="nav-bar">
+         <div class="nav-logo">
+             <img src="coollogo_com-13062451.gif">
+             </div>
+             
+             <div class="nav-links" Id="nav-links">
+                   <i class="fa fa-close"onclick="closeMenu()" ></i>
+                 <ul>
+                 <a href="#"><li>HOME</li></a>
+                  <a href="#"><li>COA</li></a>
+                     <a href="https://drive.google.com/file/d/1j98TQfcUTQ-QVFF3kg4XJR-wjSoVE97F/view?usp=sharing" target="_blank"><li>ISP</li></a>
+                     <a href="https://www.javatpoint.com/os-tutorial" target="_blank"><li>OS</li></a>
+                     <a href="https://drive.google.com/file/d/1sVD4NLzW2az9Q0FQK500rQCS6Y-n7OjS/view?usp=sharing" target="_blank"><li>SA& D</li></a>
+                  <a href="https://drive.google.com/file/d/1sVD4NLzW2az9Q0FQK500rQCS6Y-n7OjS/view?usp=sharing" target="_blank"><li>C PRO.</li></a>
+                     <a href="#"><li>CSE</li></a>
+                  <a href="about.html" target="_blank"><li>About us</li></a>
+                 </ul>
+                 <button type="button" class="btn"> SIGN UP</button>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </div>
+         <div class="banner-title">
+             <h1> hello gyus this website use for<br><span> simple work experience .<br>thanku if you want to see many<br> universe image </span>so explore<span>......</span>.</h1>
+             <button type="button" class="btn" ><a href="https://www.nasa.gov/content/universe-images-archive/">EXPLORE</a></button>
+         </div>
+         <div class="vertical-bar">
+         <div class="search-icon">
+             <i class="fa fa-th-list" ></i>
+             <i class="fa fa-search" ></i>
+             </div>
+             <div class="social-icons">
+                  <i class="fa fa-facebook" ></i>
+                 <i class="fa fa-instagram" ></i>
+                 <i class="fa fa-linkedin" ></i>
+                 <i class="fa fa-youtube" ></i>
+             
+                
+             </div>
+             
+         </div>
+         <div class="notification">
+             <div class="content">
+             <small>hello gyus enjoy this website and follow my facebook and linkedin account thanks....</small>
+                  <a href="https://www.facebook.com/profile.php?id=100024985522698" class="facebook"><i class="fa fa-facebook"></i></a>
+                 <p></p>
+             </div>
+              <div class="notification-img">
+             <img src="tenor%20(1).gif">
+             </div>
+         </div>
+        
+    </div>
+        <body>
+    <div class="wrapper">
+    <h1>our Team</h1>
+        <div class="team">
+        <div class="team_member">
+            <div class="team_img">
+                    <img src="abhi.png">
+                    </div>
+        <h3>abhishek kumar</h3>
+            <p class="role">developer</p>
+            <p>hello gyus my self abhishek kumar. i am student of polytechnic colege to computer science stream. so we are try to make a simple static website.
+                email:-........
+                phone:- .........
+                Facebook:-Kumar abhishek
+                
+            </p>
+              <a href="https://www.facebook.com/profile.php?id=100024985522698" target="_blank">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <span> - Facebook</span></a>
+            
+        </div>
+                <div class="team_member">
+                    <div class="team_img">
+                    <img src="ravi.png">
+                    </div>
+                            <h3>ravi kumar</h3>
+            <p class="role">designer</p>
+            <p> ravi is the designer of thish website . it is the main part of ours team
+                
+                Email:-.....................
+                phone:-....................
+                facebook:-Ravi gupta
+            </p>
+              <a href="https://www.facebook.com/profile.php?id=100024985522698">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <span> - Facebook</span> </a>       
+        </div>
+     <div class="team_member">
+         <div class="team_img">
+                    <img src="ayush.png" alt="team_member_image">
+                    </div>
+                 <h3>ayush kumar</h3>
+            <p class="role">suppoter</p>
+            <p>hello ayush thanku to support me making a simple static website.and welcome to ours team.
+                
+                  Email:-.....................
+                  phone:-.....................
+                facebook:- ayush shrivatav
+            </p>
+          <a href="#">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <span> - Facebook</span>
+    </a>
+        </div>
+        </div>
+        
+    </div>
+    </body>
+    <script>
+        var show=document.getElementById("nav-links")
+   function showMenu()
+        {
+            show.style.left="0";  
+        }
+         function closeMenu()
+        {
+            show.style.left="-200px";   
+        }
+    </script>    
+    
+    </body>
+</html>
+
+
+
+//CSS CODE///
+
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    
+}
+.hero
+{
+    height:100vh;
+    background-image:url(235814.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 100px;
+    
+}
+.nav-logo img
+{  float: left;
+    width: 150px;
+    
+}
+.nav-links
+{
+    flex: 1;
+}
+.nav-links a:hover{
+     background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+    color: red;
+}
+.nav-links ul
+{  
+    margin-left: 50px;
+    display:inline;
+    
+}
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding:3px 10px;
+}
+.nav-links ul a{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0;
+    height: 4px;
+    background:red;
+    display: block;
+    margin: auto;
+   transition: 0.5s; 
+    
+}
+.nav-links ul li:hover::after{
+    
+    width: 100%;
+    
+}
+.btn
+{  
+    padding: 10px 20px;
+    border:0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+    
+}
+.nav-links .btn
+{
+    float: right;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links .btn:hover
+{
+    background:skyblue;
+ 
+    
+}
+.banner-title
+{
+    margin:80px 130px;
+    color:white;
+    
+}
+.banner-title a
+{
+   color: red;
+    text-decoration: none;
+    font-weight: bold; 
+}
+.banner-title h1
+{ text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom:30px;
+}
+.banner-title h1 span
+{
+color:yellow;
+}
+
+.vertical-bar
+{
+    height:100%;
+    background:#3a42b4;
+    top:0;
+    left:0;
+    position: absolute;
+}
+.search-icon
+{
+    height: 60%;
+    width:80px;
+    
+}
+.search-icon .fa
+{
+    margin:45px 23px;
+    display: block;
+    color: #fff;
+    font-size:30px;
+    cursor: pointer;
+}
+.social-icons
+{
+    height: 32%;
+    width:80px;
+    background:yellow;
+    text-align: center;
+    padding-top: 27%;
+    bottom:0;
+    position:absolute;
+    
+}
+.social-icons .fa
+{
+    margin:15px 23px;
+    display:block;
+    padding:8px;
+    border:1px solid #000;
+    border-radius:50%;
+    cursor:pointer;
+    
+}
+.social-icons .fa:hover{
+    color:red;
+}
+.notification
+{text-transform: capitalize;
+    display:flex;
+    width: 350px;
+    right:0;
+    bottom:0;
+    position:absolute;
+    background: yellow;
+    align-items: center;
+    
+}
+.contents
+{ 
+    flex-basis: 50%;
+    padding: 10px;
+}
+.notification-img
+{
+    flex-basis: 50%;
+    
+}
+.notification-mg img
+{
+    width: 100%;
+}
+.contents a
+{
+    text-decoration: none;
+    color:#000;
+    font-size: 15px;
+    margin:0 10px;
+   
+    
+}
+.contents a
+{   padding-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.nav-bar .fa{
+    display:  
+}
+@media (max-width:700px)
+{
+    .vertical-bar
+    {
+        display: none;
+    }
+    .banner-title
+    {
+        margin:80px; 40px;
+    }
+    .banner-title h1
+    {
+        font-size: 20px;
+    }
+    .notification
+    {
+        width: 100%;
+    }
+    .nav-bar
+    {
+        padding:10px 30px;
+    }
+    .fa-bars{
+        position:absolute;
+        right: 20px;
+        top:10px;
+        transition: 0.5s;
+    }
+    .nav-bar .fa
+    {
+        display: block;
+        color:#fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor:pointer;
+        
+    }
+    .nav-links
+    {
+        height:100vh;
+        width:200px;
+        background:#000;
+        top:0;
+        right:-200px;
+        position: absolute;
+        text-align: left;
+        x-index:2;
+    }
+    .nav-links ul a
+    {
+        display: block;
+        
+    }
+    .nav-links .btn
+    {
+        float:none;
+        margin-left:25px;
+        margin-top:10px;
+        
+    }
+}
+body
+{
+    background: #81c644;
+    font-family: 'josfin sans',sans-serif;
+    
+
+ 
+}
+.wrapper
+{
+    margin-top:3%;
+    
+}
+.wrapper h1
+{
+    font-family: 'Allura',cursive;
+    font-size: 52px;
+    margin-bottom:10px;
+    text-align: center;
+}
+.team
+{
+    display:flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    
+}
+.team .team_member
+{
+    background:white;
+    margin: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding:20px;
+    line-height: 20px;
+    color:black;
+    text-transform: capitalize;
+    position: relative;
+}
+.team .team_member h3
+{
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.team .team_member p.role
+{
+    color: darkred;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    
+}
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:orange;
+} 
+.team .team_member .team_img img{
+    width :100px;
+    height: 100px;
+    padding: 10px;
+    
+}
